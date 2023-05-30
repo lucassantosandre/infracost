@@ -11,7 +11,7 @@ stages:
     jobs:
     - job: Analysis
       steps:
-      - task: InfracostSetup@1
+      - task: InfracostSetup@2
         displayName: 'Infracost : Install'
         inputs:
           apiKey: '$(infracost)'
